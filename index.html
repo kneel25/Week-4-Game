@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Collector Game</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/reset.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+    <h1>Mario's Enemies! </h1>
+</header>
+
+<section id=main>
+	<div id=instructions>
+    <div id=mario>
+        <img src="assets/images/mario.png"/>
+    </div>
+	    <p> You will be given a random number at the beginning of the game.</p>
+	    <p>There are four enemies below. By clicking on an enemy you will add a specific amount of points to your total score.</p>
+	    <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number </p>
+	    <p>The value of each enemy is hidden from you until you click on it.</p>
+	    <p>Each time when the game starts, the game will change the values of each enemy and the random number. </p>
+    </div>
+</section>
+
+	<div class="row" id=scoreboard>
+		<div class="col-md-5" id="number">
+		<span id="goal"></span>
+	</div>
+	<div class="col-md-3" id=winloss>
+		<p>winner: <span id="wins"></span></p>
+		<p>loser: <span id="losses"></span></p>
+	</div>
+	<div class="col-md-4" id=total2>
+		<p>total score:  <span id="total"></span></p>
+	</div>
+    </div>
+
+<section id=main-enemies>
+    <div id=enemy1>
+	    <img class=image id=first src="assets/images/boo.png"/>
+    </div>
+    <div id=enemy2>
+	    <img class=image id=second src="assets/images/magikoopa.png"/>
+    </div>
+    <div id=enemy3>
+	    <img class=image id=third src="assets/images/shy.png"/>
+    </div>
+    <div id=enemy4>
+	    <img class=image id=fourth src="assets/images/bullet.png"/>
+    </div>
+</section>
+
+
+<script src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>

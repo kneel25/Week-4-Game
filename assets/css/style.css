@@ -1,0 +1,115 @@
+body{
+    background-image: url('http://i.imgur.com/hoUDBwo.png');
+    /* background: linear-gradient(black, white); */
+}
+h1{
+    margin: 0 auto;
+    width:50%;
+    text-align:center;
+    text-decoration: underline;
+    font-family: 'Walter Turncoat', cursive;
+    color: navy;
+    margin-top: 20px;
+    font-size: 50px;
+}
+#main{
+    margin: 0 auto;
+    width:65%;
+}
+#main-enemies{
+    margin-left: 50px;
+    width:150%;
+    margin-top:50px;
+     
+}
+#instructions{
+    margin:20px auto;
+    text-align:center;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 20px;
+    color:navy;
+    margin-bottom:60px;
+    z-index: 1;
+}
+
+#enemy1{
+    float:left;
+    padding:20px;
+    width: 330px;
+    height: 300px;
+}
+
+#enemy2{
+    float:left;
+    padding:20px;
+    width: 400px;
+    height: 300px;
+}
+
+#enemy3{
+    float:left;
+    padding:20px;
+    width: 300px;
+    height: 300px;
+}
+
+#enemy4{
+    float:left;
+    padding:20px;
+    width: 300px;
+    height: 250px;
+}
+#mario{
+    /* float:left; */
+    /* padding:20px; */
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    z-index: -1;
+}
+
+.image{
+    width: 85%;
+    height: 85%;
+}
+
+.image:hover{
+    width:90%;
+    height:90%;
+}
+
+#scoreboard{
+    margin:0 auto;
+    font-family: 'Walter Turncoat', cursive;
+    width:50%;
+    
+}
+
+#number{
+    clear:both;
+    color:yellow;
+    width:33%;
+    font-size:70px;
+    height:100px;
+    margin-top:50px;
+    
+}
+
+#winloss{
+    color:white;
+    width:33%;
+    font-size:30px;
+    height:100px;
+    margin-top:50px;
+    
+}
+
+#total2{
+    color:white;
+    width:33%;
+    font-size:40px;
+    height:155px;
+    margin-top:50px;
+}
